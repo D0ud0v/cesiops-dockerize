@@ -47,6 +47,8 @@ Pour consulter la page dans son navigateur : [http://localhost:3000](http://loca
 
 # T'as terminé plus tôt petit malin ?
 
+## Tiens, diminue la taille de l'image !
+
 Cette fois-ci, tu vas réaliser **un Dockerfile** bien plus simple et léger pour l'application Next.JS.
 - L'image doit être basée sur Alpine Linux :
 	- **Image de base :** `node:22-alpine`
@@ -62,7 +64,7 @@ Récupère une image officielle de **PostgreSQL** ou autre base de données :
 docker pull postgres:latest
 ```
 
-## Consignes
+### Consignes
 
 1. Lance un conteneur du serveur :
 ```bash
